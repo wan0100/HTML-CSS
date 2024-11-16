@@ -6,21 +6,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/all.min.css">
     <style>
-        div.headerTop{
-            color : red;
-        }
-        div.headerTop>div.icons{  }
+        /* 헤더탑 */
+        div.headerTop{ }
+        div.headerTop>div.icons{ outline: 1px solid rebeccapurple;}
         div.headerTop>div.icons>i{  }
         div.headerTop>div.gnb{  }
         div.headerTop>div.gnb>div.menu1{  }
-        div.header>div.Logo+div.nav{
-            color :aqua;
-        }
+        /* 헤더 */
+        div.header>div.Logo{}
         div.header>div.nav>div.menu1{}
         div.header>div.nav>div.menu2{}
         div.header>div.nav>div.menu3{}
-        div.header>div.nav>div.menu4{}
-    </style>
+        div.header>div.nav>div.menu4>i{}
+        /* 공통 */
+        div.content>div.header{ outline: 1px solid rebeccapurple;}
+        div.content>div.section{}
+        div.content>div.section>div.article{}
+        div.content>div.section>div.article>div.text{}
+        div.content>div.section>div.article>div.text>div.title{}
+        div.content>div.section>div.article>div.text>div.note{}
+        div.content>div.section>div.article>div.img{}
+        /* 콘텐츠1 */
+        div.content.con1{}
+        div.content.con1>div.header{}
+        div.content.con1>div.section{}
+        div.content.con1>div.section{}
+        div.content.con1>div.section>div.artB{}
+        div.content.con1>div.section>div.artB>div.img{}
+        div.content.con1>div.section>div.artB>div.text{}
+        div.content.con1>div.section>div.artB>div.text>div.segmentTitle{}
+        div.content.con1>div.section>div.artB>div.text>div.subtitle{}
+        div.content.con1>div.section>div.artB>div.text>div.text{}
+        div.content.con1>div.section>div.artB>div.text>div.icons{}
+        div.content.con1>div.section>div.artB>div.text>div.icons>i{}
+        div.content.con1>div.section>div.artS{}
+        div.content.con1>div.section>div.artS>div.img{}
+        div.content.con1>div.section>div.artS>div.text>div.segmentTitle{}
+        div.content.con1>div.section>div.artS>div.text{}
+        div.content.con1>div.section>div.artS>div.text>div.subtitle{}
+        div.content.con1>div.section>div.artS>div.text>div.text{}
+        div.content.con1>div.section>div.artS>div.text>div.icons{}
+        div.content.con1>div.section>div.artS>div.text>div.icons>i{}
+        </style>
 </head>
 <body>
     <!-- 헤더탑 / 완 -->
@@ -113,7 +140,7 @@
     </div>
    
     <!-- 컨텐츠2 -->
-    <div class="content con2">
+    <div class="content">
         <div class="header">
             <div class="title">content title</div>
             <div class="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat eveniet, fugiat fuga voluptatem enim dolorem, totam ullam molestias dolorum doloremque reprehenderit impedit dignissimos perferendis vitae, non consequuntur eum provident molestiae.
@@ -134,7 +161,7 @@
     </div>
    
     <!-- 컨텐츠3 -->
-    <div class="content con3">
+    <div class="content">
         <div class="header">
             <div class="title">content title</div>
             <div class="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat eveniet, fugiat fuga voluptatem enim dolorem, totam ullam molestias dolorum doloremque reprehenderit impedit dignissimos perferendis vitae, non consequuntur eum provident molestiae.
