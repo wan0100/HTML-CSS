@@ -51,3 +51,36 @@ div.content.cnt1>section>div.artbottom>article>div.text>h3{}
 div.content.cnt1>section>div.artbottom>article>div.text>p{}
 div.content.cnt1>section>div.artbottom>article>div.text>div.icons{}
 div.content.cnt1>section>div.artbottom>article>div.text>div.icons>i{}
+
+/* 컨텐츠2 */
+div.content.cnt2{}
+div.content.cnt2>header{}
+div.content.cnt2>header>h2{}
+div.content.cnt2>header>p{}
+div.content.cnt2>section{}
+div.content.cnt2>section>article{}
+div.content.cnt2>section>article>div.img{}
+div.content.cnt2>section>article>div.text{}
+div.content.cnt2>section>article>div.text>h3{}
+div.content.cnt2>section>article>div.text>h4{}
+div.content.cnt2>section>article>div.text>p{}
+div.content.cnt2>section>article>div.text>button{}
+
+/* 컨텐츠3 */
+div.content.cnt3{}
+div.content.cnt3>header{}
+div.content.cnt3>header>h2{}
+div.content.cnt3>header>p{}
+div.content.cnt3>section{}
+div.content.cnt3>section>article{}
+div.content.cnt3>section>article>div.img{}
+div.content.cnt3>section>article>div.text{}
+div.content.cnt3>section>article>div.text>h3{}
+div.content.cnt3>section>article>div.text>p{}
+
+/* 푸터 */
+footer{}
+footer>h4{}
+footer>p{}
+footer>div.sns{}
+footer>div.sns>i{}
