@@ -1,0 +1,53 @@
+@import url('./all.min.css');
+
+/* 헤더탑 */
+div.hdrtop{}
+div.hdrtop>div.icons{}
+div.hdrtop>div.icons>i{}
+div.hdrtop>nav{}
+div.hdrtop>nav>h4{}
+/* 헤더 */
+header.hdr{}
+header.hdr>h1{}
+header.hdr>nav{}
+header.hdr>nav>h4{}
+header.hdr>nav>h4>i{}
+/* 컨텐츠 공통 */
+div.content{}
+div.content>header{}
+div.content>header>h2{}
+div.content>header>p{}
+div.content>section{}
+div.content>section>article{}
+div.content>section>article>div.img{}
+div.content>section>article>div.text{}
+div.content>section>article>div.text>h3{}
+div.content>section>article>div.text>h4{}
+div.content>section>article>div.text>p{}
+div.content>section>article>div.text>div.icon{}
+div.content>section>article>div.text>div.icons>i{}
+
+/* 콘텐츠 1 */
+div.content.cnt1{}
+div.content.cnt1>header{}
+div.content.cnt1>header>h2{}
+div.content.cnt1>header>p{}
+div.content.cnt1>section{}
+div.content.cnt1>section>div.arttop{}
+div.content.cnt1>section>div.arttop>article{}
+div.content.cnt1>section>div.arttop>article>div.img{}
+div.content.cnt1>section>div.arttop>article>div.text{}
+div.content.cnt1>section>div.arttop>article>div.text>p{}
+div.content.cnt1>section>div.arttop>article>div.text>h3{}
+div.content.cnt1>section>div.arttop>article>div.text>h4{}
+div.content.cnt1>section>div.arttop>article>div.text>div.icons{}
+div.content.cnt1>section>div.arttop>article>div.text>div.icons>i{}
+
+div.content.cnt1>section>div.artbottom{}
+div.content.cnt1>section>div.artbottom>article{}
+div.content.cnt1>section>div.artbottom>article>div.img{}
+div.content.cnt1>section>div.artbottom>article>div.text{}
+div.content.cnt1>section>div.artbottom>article>div.text>h3{}
+div.content.cnt1>section>div.artbottom>article>div.text>p{}
+div.content.cnt1>section>div.artbottom>article>div.text>div.icons{}
+div.content.cnt1>section>div.artbottom>article>div.text>div.icons>i{}
