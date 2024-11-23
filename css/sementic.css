@@ -15,19 +15,20 @@ div.hdrwrap>header.hdr>nav{}
 div.hdrwrap>header.hdr>nav>h4{}
 div.hdrwrap>header.hdr>nav>h4>i{}
 /* 컨텐츠 공통 */
-div.content{}
-div.content>header{}
-div.content>header>h2{}
-div.content>header>p{}
-div.content>section{}
-div.content>section>article{}
-div.content>section>article>div.img{}
-div.content>section>article>div.text{}
-div.content>section>article>div.text>h3{}
-div.content>section>article>div.text>h4{}
-div.content>section>article>div.text>p{}
-div.content>section>article>div.text>div.icon{}
-div.content>section>article>div.text>div.icons>i{}
+div.cntwrap{}
+div.cntwrap>div.content{}
+div.cntwrap>div.content>header{}
+div.cntwrap>div.content>header>h2{}
+div.cntwrap>div.content>header>p{}
+div.cntwrap>div.content>section{}
+div.cntwrap>div.content>section>article{}
+div.cntwrap>div.content>section>article>div.img{}
+div.cntwrap>div.content>section>article>div.text{}
+div.cntwrap>div.content>section>article>div.text>h3{}
+div.cntwrap>div.content>section>article>div.text>h4{}
+div.cntwrap>div.content>section>article>div.text>p{}
+div.cntwrap>div.content>section>article>div.text>div.icon{}
+div.cntwrap>div.content>section>article>div.text>div.icons>i{}
 
 /* 콘텐츠 1 */
 div.cntwrap.cntl{}
