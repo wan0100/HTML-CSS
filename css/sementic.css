@@ -7,6 +7,7 @@ div.hdrtopwrap>div.hdrtop{
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 div.hdrtopwrap>div.hdrtop>div.icons{}
 div.hdrtopwrap>div.hdrtop>div.icons>i{}
@@ -19,6 +20,7 @@ div.hdrwrap>header.hdr{
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 div.hdrwrap>header.hdr>h1{}
 div.hdrwrap>header.hdr>nav{
@@ -81,9 +83,7 @@ div.cntwrap.cnt2>div.content.cnt2>header{}
 div.cntwrap.cnt2>div.content.cnt2>header>h2{}
 div.cntwrap.cnt2>div.content.cnt2>header>p{}
 div.cntwrap.cnt2>div.content.cnt2>section{}
-div.cntwrap.cnt2>div.content.cnt2>section>article{
-    display: flex;
-}
+div.cntwrap.cnt2>div.content.cnt2>section>article{display: flex;}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.img{}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.text{}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.text>h3{}
@@ -97,10 +97,8 @@ div.cntwrap.cnt3>div.content.cnt3{}
 div.cntwrap.cnt3>div.content.cnt3>header{}
 div.cntwrap.cnt3>div.content.cnt3>header>h2{}
 div.cntwrap.cnt3>div.content.cnt3>header>p{}
-div.cntwrap.cnt3>div.content.cnt3>section{}
-div.cntwrap.cnt3>div.content.cnt3>section>article{
-    display: flex;
-}
+div.cntwrap.cnt3>div.content.cnt3>section{display: flex;}
+div.cntwrap.cnt3>div.content.cnt3>section>article{}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.img{}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.text{}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.text>h3{}
