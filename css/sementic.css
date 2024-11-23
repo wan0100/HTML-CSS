@@ -2,21 +2,36 @@
 
 /* 헤더탑 */
 div.hdrtopwrap{}
-div.hdrtopwrap>div.hdrtop{}
+div.hdrtopwrap>div.hdrtop{
+    width: 80%; 
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
 div.hdrtopwrap>div.hdrtop>div.icons{}
 div.hdrtopwrap>div.hdrtop>div.icons>i{}
-div.hdrtopwrap>div.hdrtop>nav{}
+div.hdrtopwrap>div.hdrtop>nav{display: flex;}
 div.hdrtopwrap>div.hdrtop>nav>h4{}
 /* 헤더 */
 div.hdrwrap{}
-div.hdrwrap>header.hdr{}
+div.hdrwrap>header.hdr{
+    width: 80%; 
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
 div.hdrwrap>header.hdr>h1{}
-div.hdrwrap>header.hdr>nav{}
+div.hdrwrap>header.hdr>nav{
+    display: flex;
+}
 div.hdrwrap>header.hdr>nav>h4{}
 div.hdrwrap>header.hdr>nav>h4>i{}
 /* 컨텐츠 공통 */
 div.cntwrap{}
-div.cntwrap>div.content{}
+div.cntwrap>div.content{
+    width: 80%; 
+    max-width: 1080px;
+    margin: 0 auto;}
 div.cntwrap>div.content>header{}
 div.cntwrap>div.content>header>h2{}
 div.cntwrap>div.content>header>p{}
@@ -37,7 +52,9 @@ div.cntwrap.cntl>div.content.cnt1>header{}
 div.cntwrap.cntl>div.content.cnt1>header>h2{}
 div.cntwrap.cntl>div.content.cnt1>header>p{}
 div.cntwrap.cntl>div.content.cnt1>section{}
-div.cntwrap.cntl>div.content.cnt1>section>div.arttop{}
+div.cntwrap.cntl>div.content.cnt1>section>div.arttop{
+    display: flex;
+}
 div.cntwrap.cntl>div.content.cnt1>section>div.arttop>article{}
 div.cntwrap.cntl>div.content.cnt1>section>div.arttop>article>div.img{}
 div.cntwrap.cntl>div.content.cnt1>section>div.arttop>article>div.text{}
@@ -47,7 +64,10 @@ div.cntwrap.cntl>div.content.cnt1>section>div.arttop>article>div.text>h4{}
 div.cntwrap.cntl>div.content.cnt1>section>div.arttop>article>div.text>div.icons{}
 div.cntwrap.cntl>div.content.cnt1>section>div.arttop>article>div.text>div.icons>i{}
 
-div.cntwrap.cntl>div.content.cnt1>section>div.artbottom{}
+div.cntwrap.cntl>div.content.cnt1>section>div.artbottom{
+    display: flex;
+    outline: 1px solid brown;
+}
 div.cntwrap.cntl>div.content.cnt1>section>div.artbottom>article{}
 div.cntwrap.cntl>div.content.cnt1>section>div.artbottom>article>div.img{}
 div.cntwrap.cntl>div.content.cnt1>section>div.artbottom>article>div.text{}
@@ -63,7 +83,9 @@ div.cntwrap.cnt2>div.content.cnt2>header{}
 div.cntwrap.cnt2>div.content.cnt2>header>h2{}
 div.cntwrap.cnt2>div.content.cnt2>header>p{}
 div.cntwrap.cnt2>div.content.cnt2>section{}
-div.cntwrap.cnt2>div.content.cnt2>section>article{}
+div.cntwrap.cnt2>div.content.cnt2>section>article{
+    display: flex;
+}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.img{}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.text{}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.text>h3{}
@@ -78,7 +100,9 @@ div.cntwrap.cnt3>div.content.cnt3>header{}
 div.cntwrap.cnt3>div.content.cnt3>header>h2{}
 div.cntwrap.cnt3>div.content.cnt3>header>p{}
 div.cntwrap.cnt3>div.content.cnt3>section{}
-div.cntwrap.cnt3>div.content.cnt3>section>article{}
+div.cntwrap.cnt3>div.content.cnt3>section>article{
+    display: flex;
+}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.img{}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.text{}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.text>h3{}
@@ -86,7 +110,11 @@ div.cntwrap.cnt3>div.content.cnt3>section>article>div.text>p{}
 
 /* 푸터 */
 div.ftrwrap{}
-div.ftrwrap>footer{}
+div.ftrwrap>footer{
+    width: 80%; 
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.ftrwrap>footer>h4{}
 div.ftrwrap>footer>p{}
 div.ftrwrap>footer>div.sns{}
