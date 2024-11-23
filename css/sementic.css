@@ -56,7 +56,10 @@ div.cntwrap.cnt1>div.content.cnt1>header>h2{}
 div.cntwrap.cnt1>div.content.cnt1>header>p{}
 div.cntwrap.cnt1>div.content.cnt1>section{}
 
-div.cntwrap.cnt1>div.content.cnt1>section>div.arttop{display: flex;}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop{
+    display: flex;
+    column-gap: 20px;
+}
 div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article{}
 div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.img{}
 div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text{}
@@ -67,8 +70,13 @@ div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>div.icons{
 div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>div.icons>i{}
 
 
-div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom{display: flex;}
-div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom{
+    display: flex;
+    column-gap: 20px;
+}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article{
+    background-color: cornflowerblue;
+}
 div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.img{}
 div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text{}
 div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text>h3{}
