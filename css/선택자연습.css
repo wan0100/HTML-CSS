@@ -7,6 +7,7 @@ div.hdrtopwrap>div.hdrtop>div.icons{}
 div.hdrtopwrap>div.hdrtop>div.icons>i{}
 div.hdrtopwrap>div.hdrtop>nav{}
 div.hdrtopwrap>div.hdrtop>nav>h4{}
+
 /* 헤더 */
 div.hdrwrap{}
 div.hdrwrap>header.hdr{}
@@ -16,10 +17,28 @@ div.hdrwrap>header.hdr>nav>h4{}
 div.hdrwrap>header.hdr>nav>h4>i{}
 
 /* 컨텐츠 공통 */
-div.
-
+div.content{}
+div.content>header{}
+div.content>header>h2{}
+div.content>header>h2>p{}
+div.content>section{}
+div.content>section>article{}
+div.content>section>article>div.img{}
+div.content>section>article>div.text{}
+div.content>section>article>div.text>h3{}
+div.content>section>article>div.text>p{}
 
 /* 컨텐츠1 */
+div.cntwrap.cnt1{}
+div.cntwrap.cnt1>div.content.cnt1{}
+div.cntwrap.cnt1>div.content.cnt1>header{}
+div.cntwrap.cnt1>div.content.cnt1>header>h2{}
+div.cntwrap.cnt1>div.content.cnt1>header>p{}
+div.cntwrap.cnt1>div.content.cnt1>section{}
+div.cntwrap.cnt1>div.content.cnt1>section{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop{}
+
+
 
 
 /* 컨텐츠2 */
