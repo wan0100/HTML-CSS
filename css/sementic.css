@@ -1,4 +1,5 @@
 @import url('./all.min.css');
+@import url(./reset.min.css);
 
 /* 헤더탑 */
 div.hdrtopwrap{
