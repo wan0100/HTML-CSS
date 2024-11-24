@@ -9,11 +9,11 @@ div.hdrtopwrap>div.hdrtop>nav{}
 div.hdrtopwrap>div.hdrtop>nav>h4{}
 /* 헤더 */
 div.hdrwrap{}
-div.hdrwrap>header{}
-div.hdrwrap>header>h1{}
-div.hdrwrap>header>nav{}
-div.hdrwrap>header>nav>h4{}
-div.hdrwrap>header>nav>h4>i{}
+div.hdrwrap>header.hdr{}
+div.hdrwrap>header.hdr>h1{}
+div.hdrwrap>header.hdr>nav{}
+div.hdrwrap>header.hdr>nav>h4{}
+div.hdrwrap>header.hdr>nav>h4>i{}
 
 /* 컨텐츠 공통 */
 div.
