@@ -170,5 +170,8 @@ div.ftrwrap>footer>p{
     margin: 0 auto;
     text-align: center;
 }
-div.ftrwrap>footer>div.sns{}
-div.ftrwrap>footer>div.sns>i{line-height: 80px;}
+div.ftrwrap>footer>div.sns{text-align: center;}
+div.ftrwrap>footer>div.sns>i{
+    line-height: 80px;
+    text-align: center;
+}
