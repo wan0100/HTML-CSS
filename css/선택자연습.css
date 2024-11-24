@@ -1,7 +1,12 @@
 @import url(./all.min.css);
 
+/* 색깔 값
+블랙 : #333333
+보라 : #D1B5CE
+*/
+
 /* 헤더탑 */
-div.hdrtopwrap{}
+div.hdrtopwrap{background-color: #333333;}
 div.hdrtopwrap>div.hdrtop{}
 div.hdrtopwrap>div.hdrtop>div.icons{}
 div.hdrtopwrap>div.hdrtop>div.icons>i{}
@@ -9,7 +14,7 @@ div.hdrtopwrap>div.hdrtop>nav{}
 div.hdrtopwrap>div.hdrtop>nav>h4{}
 
 /* 헤더 */
-div.hdrwrap{}
+div.hdrwrap{background-color: #D1B5CE;}
 div.hdrwrap>header.hdr{}
 div.hdrwrap>header.hdr>h1{}
 div.hdrwrap>header.hdr>nav{}
@@ -63,7 +68,7 @@ div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text>div.ico
 div.cntwrap.cnt2{}
 div.cntwrap.cnt2>div.content.cnt2{}
 div.cntwrap.cnt2>div.content.cnt2>header{}
-div.cntwrap.cnt2>div.content.cnt2>header>p{}
+div.cntwrap.cnt2>div.content.cnt2>header>p{background-color: #D1B5CE;}
 div.cntwrap.cnt2>div.content.cnt2>section{}
 div.cntwrap.cnt2>div.content.cnt2>section>article{}
 div.cntwrap.cnt2>div.content.cnt2>section>article>div.img{}
@@ -87,7 +92,7 @@ div.cntwrap.cnt3>div.content.cnt3>section>article>div.text>h3{}
 div.cntwrap.cnt3>div.content.cnt3>section>article>div.text>p{}
 
 /* 푸터 */
-div.ftrwrap{}
+div.ftrwrap{background-color: #D1B5CE;}
 div.ftrwrap>footer{}
 div.ftrwrap>footer>h4{}
 div.ftrwrap>footer>p{}
