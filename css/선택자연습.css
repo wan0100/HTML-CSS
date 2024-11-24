@@ -29,8 +29,7 @@ div.cntwrap>div.content>section>article>div.text{}
 div.cntwrap>div.content>section>article>div.text>h3{}
 div.cntwrap>div.content>section>article>div.text>h4{}
 div.cntwrap>div.content>section>article>div.text>p{}
-div.cntwrap>div.content>section>article>div.icons{}
-div.cntwrap>div.content>section>article>div.icons>i{}
+
 
 /* 컨텐츠1 */
 div.cntwrap.cnt1{}
@@ -42,10 +41,23 @@ div.cntwrap.cnt1>div.content.cnt1>section{}
 div.cntwrap.cnt1>div.content.cnt1>section{}
 
 div.cntwrap.cnt1>div.content.cnt1>section>div.arttop{}
-div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.img{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>h3{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>h4{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>p{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>div.icons{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.arttop>article>div.text>div.icons>i{}
 
 div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom{}
-div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.img{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text>h3{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text>p{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text>div.icons{}
+div.cntwrap.cnt1>div.content.cnt1>section>div.artbottom>article>div.text>div.icons>i{}
 
 
 
