@@ -1,0 +1,283 @@
+@import url('./all.min.css');
+@import url('./reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* 최상단 헤더 영역 */
+div.hdrtopWrap {
+    background-color: #212517;
+}
+div.hdrtopWrap > div.hdrtop {
+    
+}
+div.hdrtopWrap > div.hdrtop > div.inner {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    line-height:  40px; ;
+    color: white;
+}
+div.hdrtopWrap > div.hdrtop > div.inner > h5 {
+    font-size: 35px;
+    width: fit-content;
+    margin-left: 100%;
+    animation: move 5s infinite linear;
+}
+@keyframes move {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+div.hdrtopWrap > div.hdrtop > div.inner > h5 > i {}
+
+/* 메인 헤더 영역 */
+div.headerWrap {
+    background-color: #A31F30;
+}
+div.headerWrap > header {
+    
+    color: white;
+}
+div.headerWrap > header > div.inner {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.headerWrap > header > div.inner > h1,
+div.headerWrap > header > div.inner > nav > h4,
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > header > h2,
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > header > h2,
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > header > h2,
+div.footerWrap > footer > div.inner > h4 {
+    font-family: "Mountains of Christmas", serif;
+    text-transform: capitalize;
+}
+div.headerWrap > header > div.inner > h1 {
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+div.headerWrap > header > div.inner > nav {
+    display: flex;
+    line-height: 80px;
+    column-gap: 20px;
+}
+div.headerWrap > header > div.inner > nav > h4 {}
+div.headerWrap > header > div.inner > nav > h4 > i {}
+
+/* 컨텐츠 영역 */
+div.contentWrap {}
+div.contentWrap > div.content {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* 컨텐츠 01 */
+div.contentWrap > div.content > div.cntWrap.wrap1 {
+    margin-top: 80px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > header {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > header > h2 {
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > header > p {
+    line-height: 20px;
+    font-size: 12px;
+    width: calc(100% / 12 * 6);
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section {
+    margin-top: 40px;
+}
+
+/* 컨텐츠 01 - arttop */
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop {
+    display: flex;
+    column-gap: 20px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.img.i1 {
+    height: 320px;
+    background-color: #ccc;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.img {
+    height: 320px;
+    background-color: #ccc;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.text {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.text > h3 {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 25px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.text > h4 {
+    line-height: 40px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.text > p {
+    line-height: 20px;
+    font-size: 12px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.text > div.icons {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.arttop > article > div.text > div.icons > i {}
+
+/* 컨텐츠 01 - artbtm */
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm {
+    display: flex;
+    column-gap: 20px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.img.i3 {
+    height: 320px;
+    background-color: #ccc;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.img {
+    height: 320px;
+    background-color: #ccc;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.text {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.text > h3 {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 25px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.text > p {
+    line-height: 20px;
+    font-size: 12px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.text > div.icons {}
+div.contentWrap > div.content > div.cntWrap.wrap1 > section.cnt01 > div.inner > section > div.artbtm > article > div.text > div.icons > i {}
+
+/* 컨텐츠 02 */
+div.contentWrap > div.content > div.cntWrap.wrap2 {
+    margin-top: 80px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 {}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner {}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > header {
+    color: white;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > header > h2 {
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > header > p {
+    line-height: 20px;
+    font-size: 12px;
+    width: calc(100% / 12 * 6);
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section {
+    margin-top: 40px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article {
+    display: flex;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.img.i6 {
+
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.img {
+    height: 440px;
+    width: 50%;
+    background-color: #ccc;
+}
+
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.text {
+    width: 50%;
+
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.text > h3 {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 25px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.text > h4 {
+    line-height: 40px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.text > p {
+    line-height: 20px;
+    font-size: 12px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap2 > section.cnt02 > div.inner > section > article > div.text > div.button {}
+
+/* 컨텐츠 03 */
+div.contentWrap > div.content > div.cntWrap.wrap3 {
+    margin-top: 80px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 {}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner {}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > header {}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > header > h2 {
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > header > p {
+    line-height: 20px;
+    font-size: 12px;
+    width: calc(100% / 12 * 6);
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 40px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section > article {
+
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section > article > div.img.i7 {
+
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section > article > div.img {
+    height: 200px;
+    background-color: #ccc;
+    
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section > article > div.text {}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section > article > div.text > h3 {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 25px;
+}
+div.contentWrap > div.content > div.cntWrap.wrap3 > section.cnt03 > div.inner > section > article > div.text > p {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* 푸터 영역 */
+div.footerWrap {
+    background-color: #A31F30;
+}
+div.footerWrap > footer {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    color: white;
+}
+div.footerWrap > footer > div.inner {}
+div.footerWrap > footer > div.inner > h4 {}
+div.footerWrap > footer > div.inner > p {
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+}
+div.footerWrap > footer > div.inner > div.sns {}
+div.footerWrap > footer > div.inner > div.sns > i {}
